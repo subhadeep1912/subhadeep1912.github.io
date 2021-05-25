@@ -1,4 +1,5 @@
 import './App.css';
+import boat from './boat.svg'
 
 function App() {
   return (
@@ -14,7 +15,9 @@ function App() {
       <div id="my-socials">
         <p>Github</p>
         <p>Twitter</p>
-
+      </div>
+      <div id = "animation">
+        <object type="image/svg+xml" data = {boat}>This works?</object>
       </div>
     </div>
     <div id="skill-card">

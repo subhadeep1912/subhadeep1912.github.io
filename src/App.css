@@ -22,7 +22,7 @@ html {
 
 #my-socials {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 
 #skill-card {
@@ -61,4 +61,13 @@ html {
 #achieve-body {
   display: grid;
   grid-template-columns: 1fr 1fr;
+}
+
+object {
+  position: inherit;
+  height: 1500px;
+  width: 2000px;
+  /* position: absolute; */
+  right: 100px;
+  top: 70px;
 }

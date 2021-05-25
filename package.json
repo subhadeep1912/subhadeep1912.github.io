@@ -25,7 +25,7 @@
       "react-app/jest"
     ]
   },
-  "homepage": "http://subhadeep1912.github.io/my-website",
+  "homepage": "http://subhadeep1912.github.io",
   "browserslist": {
     "production": [
       ">0.2%",
