@@ -24,6 +24,7 @@ function App() {
       <div id="skill-head-1">
         I have been using the following since some days
       </div>
+      <div id="skill-col">
       <div id="skill-list">
       
           <p>React Js</p>
@@ -48,38 +49,7 @@ function App() {
             <p>Kaggle Novice</p>
           
         </div>
-    </div>
-    <div id="projects">
-      <div id="project-header">
-        These are all the projects
-      </div>
-      <div id="ml-header">These are all the ML projects</div>
-      <div id="projects-ML">
-          <p>Someting1</p>
-          <p>Someting2</p>
-          <p>Someting3</p>
-          <p>Someting4</p>
-      </div>
-      <div id="web-dev-header">These are all the web dev projects</div>
-      <div id="projects-WEB-DEV">
-          <p>Someting1</p>
-          <p>Someting2</p>
-          <p>Someting3</p>
-          <p>Someting4</p>
-      </div>
-    </div>
-    <div id="acheivements">
-      <div id="achieve-head">
-        These are all my acheivements
-      </div>
-      <div id="achieve-body">
-      
-          <p>Someting1</p>
-          <p>Someting2</p>
-          <p>Someting3</p>
-          <p>Someting4</p>
-        
-      </div>
+        </div>
     </div>
   </div>
   );
