@@ -2,50 +2,48 @@
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  background-color: #e9eaec;
+  /* text-align: center; */
+  /* background-color: #e9eaec; */
   border-radius: 15px 15px 15px 15px;
   padding-bottom: 5px;
   padding-top: 5px;
-  color: antiquewhite;
+  margin-left: 10px;
+  /* color: antiquewhite; */
 }
 
-#skill-col {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
+h1 { font-family: Ubuntu Mono; font-size: 24px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 26.4px; } 
+h3 { font-family: Ubuntu Mono; font-size: 14px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 15.4px; } 
+p { font-family: Ubuntu Mono; font-size: 14px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 20px; } 
+blockquote { font-family: Ubuntu Mono; font-size: 21px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 30px; } 
+pre { font-family: Ubuntu Mono; font-size: 13px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 18.5667px; }
+
+span {
+  font-family: Ubuntu Mono; font-size: 24px; font-style: normal; font-variant: normal; font-weight: 500; line-height: 26.4px; 
 }
 
-html {
-  background-color: #e9eaec;
+.yellow {
+  color: rgb(188, 183, 49);
 }
 
-#head-card {
-  border-radius: 15px 15px 15px 15px;
-  background-color: #2c3e50;
-  margin: 20px 20px 20px 20px;
+.brown {
+  color: rgba(0, 0, 0, 0.888);
 }
 
-#my-socials {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
+.command {
+  font-style: italic;
+  color: rgba(86, 88, 88, 0.545);
+  
 }
 
-#skill-card {
-  border-radius: 15px 15px 15px 15px;
-  background-color: #2c3e50;
-  margin: 20px 20px 20px 20px;
+.command:hover {
+  color: blue;
+  font-style: normal;
+  cursor: pointer;
+  /* cursor: crosshair; */
 }
 
-#skill-list {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-}
+.full {
+  display: flex;
+  flex-direction: row;
 
-object {
-  position: inherit;
-  height: 150px;
-  width: 200px;
-  /* position: absolute; */
-  right: 100px;
-  top: 70px;
 }
