@@ -31,6 +31,7 @@ export default function Neo() {
     <div>
         <span className='yellow'>About Me: </span>
         <span className='white'><br></br>I made this wesbite to show my portfolio. I did not know anything web dev yet I made this website </span>
+    
     </div>
     </div>
     </div>
