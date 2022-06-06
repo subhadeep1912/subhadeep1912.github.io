@@ -35,6 +35,11 @@ span {
   
 }
 
+.bruh {
+  font-style: italic;
+  color: rgba(86, 88, 88, 0.545);
+}
+
 .command:hover {
   color: blue;
   font-style: normal;
@@ -42,8 +47,45 @@ span {
   /* cursor: crosshair; */
 }
 
+.command:active{
+  color: blue;
+  font-style: normal;
+  cursor: pointer;
+  /* cursor: crosshair; */
+}
+
+.command:focus {
+  color: blue;
+  font-style: normal;
+  cursor: pointer;
+  /* cursor: crosshair; */
+}
+
+
 .full {
   display: flex;
   flex-direction: row;
 
+}
+
+.white
+{
+  color: azure;
+}
+
+.typewriter {
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  /* border-right: .15em solid orange; The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  /* letter-spacing: .15em; Adjust as needed */
+  animation: 
+    typing 3.5s steps(40, end),
+    blink-caret .75s step-end infinite;
+}
+
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
 }
