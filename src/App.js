@@ -10,7 +10,7 @@ function App() {
 
   return (
     <div id="app">
-      <h1><span className="white">subhadeep19@</span><span className="yellow">github-io:~$</span>  <span className="command" onClick={() => setVal(false)}>neofetch</span>  <span className='bruh'>&lt;---click this command</span></h1>
+      <h1><span className="white">subhadeep19@</span><span className="yellow">github-io:~$</span>  <span className="command" id="fuck" onClick={() => {setVal(false);document.getElementById("fuck").style.color="blue";document.getElementById("fuck").style.fontStyle = "normal";}}>neofetch</span>  <span className='bruh'>&lt;---click this command</span></h1>
       {val?(<></>):(<Neo/>)}
     </div>
   );

@@ -11,7 +11,7 @@ export default function Neo() {
     <div style={{"margin":"10px"}} className="typewriter">
     <div className='yellow'>--------------------------------</div>
     <div>
-        <span className='yellow'>Name: </span><span className='white'>Subhadeep Chatterjee</span>
+        <span className='yellow' >Name: </span><span className='white'>Subhadeep Chatterjee</span>
     </div>
     <div>
         <span className='yellow'>Age: </span><span className='white'>20</span>
@@ -20,7 +20,7 @@ export default function Neo() {
         <span className='yellow'>Stuff I like: </span><span className='white'>Anime, Games</span>
     </div>    
     <div>
-        <span className='yellow'> Tech I Used: </span><span className='white'>Python, ML/AI, Pytorch, and stuff</span>
+        <span className='yellow' id="cunt"> Tech I Used: </span><span className='white'>Python, ML/AI, Pytorch, and stuff</span>
     </div>    
     <div>
         <span className='yellow'>Hobbies: </span><span className='white'>Embedded systems programming, Graphics Programming, Electronics, OpenGL</span>
